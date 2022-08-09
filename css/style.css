@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@300;400;600;700&family=Poppins:wght@500;600;700&family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    background-color: #d8dadb;
+}
+.banner-image{
+    width: 470px;
+    height: 100vh;
+}
+header{
+    width: 100vw;
+    position: absolute;
+    top: 0;
+}
+.navbar{
+    max-width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat",sans-serif;
+}
+.logo{
+    width: 100px;
+}
+.header-line{
+    width: 10%;
+    position: relative;
+    left: 33rem;
+    top: 2.5rem;
+    border: 1px solid black;
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    text-transform: capitalize;
+}
+.active{
+    font-weight: 600;
+}
+
+/* section styling */
+
+.creative-container{
+    width: 60%;
+    position: absolute;
+    right: 0;
+    top: 6rem;
+}
+.wrapper{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.creative-text{
+    margin-right: 30px;
+    
+}
+.span-1{
+    position: absolute;
+    left: 3rem;
+    font-size: 80px;
+    color: #c4c0c0;
+    text-transform: capitalize;
+}
+.span-2{
+    position: absolute;
+    top: 4rem;
+    left: 7rem;
+    font-size: 80px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    color: #242B2E;
+}
+.span-3{
+    width: 15%;
+    font-size: 22px;
+    color: #c4c0c0;
+    position: absolute;
+    top: 4rem;
+    right: 15rem;
+    bottom: 0;
+    font-weight: 500;
+}
+.social-links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 150px;
+    margin-right: 50px;
+}
+.fa-brands{
+    font-size: 22px;
+}
+.creative-btn{
+    position: absolute;
+    right: 8rem;
+    top: 12rem;
+    border: none;
+    background-color: #242B2E;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    font-family: "Poppins";
+    font-size: 16px;
+}
+
+/* services section styling */
+
+.services-container{
+    width: 100vw;
+    position: relative;
+}
+.services-wrapper{
+    position: absolute;
+    right: 0;
+    bottom: 3rem;
+    left: 31.7rem;
+    line-height: 2.8;
+    font-family: "Poppins",sans-serif;
+}
+.services{
+    list-style: none;
+    font-size: 20px;
+}
+.line{
+    display: flex;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    bottom: .5rem;
+    left: 32rem;
+}
+.line hr{
+    border: 1px solid black;
+}
+.service span{
+    position: relative;
+    margin-right: 10px;
+    display: inline-block;
+    background-color: black;
+    padding: 1px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.service-text{
+    position: absolute;
+    right: .5rem;
+    bottom: -8rem;
+    width: 60%;
+}
+.service-text p{
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.fa-solid{
+    font-size: 40px;
+}
+.services-img{
+    width: 300px;
+}
