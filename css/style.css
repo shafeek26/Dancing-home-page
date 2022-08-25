@@ -11,7 +11,7 @@ body{
 }
 .banner-image{
     width: 470px;
-    height: 100vh;
+    height: 80vh;
 }
 header{
     width: 100vw;
@@ -169,4 +169,41 @@ header{
 }
 .services-img{
     width: 300px;
+}
+.fa-bars{
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    display: none;
+    margin-right: 50px;
+}
+
+
+
+/* media querries goes here */
+
+@media screen and (max-width:1100px) {
+    .header-line{
+        display: none;
+    }
+    .list{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+    .span-1{
+        font-size: 60px;
+    }
+    .span-2{
+        font-size: 60px;
+    }
+    .span-3{
+        font-size: 16px;
+    }
+    .creative-btn{
+       text-transform: capitalize;
+        padding: 5px 20px;
+        font-size: 12px;
+    }
 }
